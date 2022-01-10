@@ -3,7 +3,7 @@ let hoursItem = document.getElementById('hours');
 let secItem = document.getElementById('seconds');
 let minItem = document.getElementById('minutes');
 
-let newYear = new Date('January 1, 2022 00:00:00') 
+let newYear = new Date('March 8, 2022 00:00:00') 
 let data = Date.now();
 let time = newYear - data;
 const days = Math.floor(time / (1000 * 60 * 60 * 24));
